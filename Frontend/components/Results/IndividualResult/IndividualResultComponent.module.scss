@@ -1,0 +1,62 @@
+@import "../../../styles/global.scss";
+.mainCard {
+    padding-bottom: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    &__card {
+        display: flex;
+        border-bottom: 1px solid $divColor;
+        cursor: pointer;
+        // Responsive for mobile
+        @media screen and (max-width: 500px) {
+            display: table;
+        }
+        &__img {
+            display: block;
+            max-width: 148px;
+            max-height: 148px;
+            width: 148px;
+            border-radius: 4px;
+            margin: 10px 0px;
+        }
+        &__description {
+            font-size: 14px;
+            padding: 16px 0px 0px 16px;
+            width: 100%;
+            &__superior {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                &__currency {
+                    display: flex;
+                    align-items: center;
+                    font-size: 24px;
+                    color: $letterMainColor;
+                    &__img {
+                        width: 20px;
+                        height: 20px;
+                        padding-left: 8px;
+                    }
+                }
+                &__location {
+                    text-align: center;
+                    margin-left: 10px;
+                    font-size: 12px;
+                }
+            }
+            &__body {
+                margin: 15px 0px;
+                font-size: 13px;
+                width: 50%;
+                text-align: justify;
+                color: $letterSecondaryColor;
+            }
+        }
+    }
+}
+
+.super {
+    font-size: 14px;
+}

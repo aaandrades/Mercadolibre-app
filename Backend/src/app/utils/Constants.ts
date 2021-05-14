@@ -1,0 +1,5 @@
+export const MERCADOLIBRE_BASE_URL: string = 'https://api.mercadolibre.com/'
+export const MERCADOLIBRE_GET_ALL_METHOD: string = 'sites/MLA/search?q='
+export const MERCADOLIBRE_GET_ITEM_METHOD: string = 'items/'
+export const MERCADOLIBRE_GET_ITEM_DESCRIPTION_METHOD: string = '/description'
+export const MERCADOLIBRE_GET_ITEM_CATEGORY_METHOD: string = 'categories/'

@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "00682f5e-f246-44d5-81a5-a3f90854ba53",
+		"name": "Learning",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Search all items",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/items?q=celulares",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"items"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "celulares"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/items/MLA902465520",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"items",
+						"MLA902465520"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

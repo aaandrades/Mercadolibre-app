@@ -1,0 +1,82 @@
+@import "../../styles/global.scss";
+.container {
+    background-color: $backgroundResults;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 94vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &__item {
+        width: 70%;
+        padding: 32px;
+        margin: 32px 0px;
+        background-color: white;
+        border-radius: 4px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        -webkit-box-shadow: 3px 3px 10px -5px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 3px 3px 10px -5px rgba(0, 0, 0, 0.75);
+        box-shadow: 3px 3px 10px -5px rgba(0, 0, 0, 0.75);
+        &__description {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 60%;
+            &__img {
+                height: auto;
+                max-width: 480px;
+            }
+            &__body {
+                color: $letterMainColor;
+                &__text {
+                    font-size: 14px;
+                    text-align: justify;
+                    color: $letterSecondaryColor;
+                }
+            }
+        }
+        &__info {
+            margin-left: 32px;
+            width: 30%;
+            &__state {
+                font-size: 14px;
+                color: #37e714;
+                margin-bottom: 20px;
+                &__quantity {
+                    color: $letterThirtyColor;
+                    padding-left: 20px;
+                }
+            }
+            &__title {
+                font-size: 24px;
+                color: $letterMainColor;
+                margin-bottom: 20px;
+            }
+            &__price {
+                // Original styles differed to much
+                font-size: 35px;
+                margin-bottom: 20px;
+            }
+            &__button {
+                color: white;
+                background-color: $tertiaryColor;
+                border: none;
+                height: 40px;
+                width: 100%;
+                cursor: pointer;
+                &:hover {
+                    font-weight: bold;
+                    -webkit-box-shadow: 3px 3px 10px -5px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 3px 3px 10px -5px rgba(0, 0, 0, 0.75);
+                    box-shadow: 3px 3px 10px -5px rgba(0, 0, 0, 0.75);
+                }
+            }
+        }
+    }
+}
+
+.loading {
+    text-align: center;
+    color: $secondaryColor;
+}

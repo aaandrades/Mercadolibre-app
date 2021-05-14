@@ -1,0 +1,42 @@
+@import "../../styles/global.scss";
+.searchBox {
+    height: 50px;
+    background-color: $primaryColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__contentSearchBar {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        &__img {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        &__input {
+            padding: 5px 18px;
+            height: 25px;
+            width: 60%;
+            background-color: white;
+            border: none;
+            border-radius: 5px 0px 0px 5px;
+            &:focus {
+                outline: none;
+            }
+        }
+        &__search {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 8%;
+            height: 35px;
+            border-radius: 0px 5px 5px 0px;
+            background-color: $searchButton;
+            cursor: pointer;
+            border: none;
+        }
+    }
+}

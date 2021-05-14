@@ -1,0 +1,32 @@
+@import "../../styles/global.scss";
+.mainResults {
+    background-color: $backgroundResults;
+    min-height: 94vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &__generalContainer {
+        width: 80%;
+    }
+    &__categories {
+        margin: 16px 0px;
+        padding-left: 32px;
+        font-size: 12px;
+        display: flex;
+        color: $letterSecondaryColor
+    }
+    &__container {
+        padding: 16px 32px;
+        background-color: white;
+        border-radius: 4px;
+        color: $letterMainColor;
+        -webkit-box-shadow: 3px 3px 10px -5px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 3px 3px 10px -5px rgba(0, 0, 0, 0.75);
+        box-shadow: 3px 3px 10px -5px rgba(0, 0, 0, 0.75);
+    }
+}
+
+.loading {
+    text-align: center;
+    color: $secondaryColor;
+}
