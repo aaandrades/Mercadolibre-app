@@ -45,6 +45,7 @@ Backend:
 - Axios: 0.21
 ### :bulb: Run the App
 Just execute the docker-compose ```docker-compose up```
+** Don't forget to enable CORS **
 
 *If you want to contribute to improve the project, please create your PR and write me :speech_balloon: . After it, sit down and take a beer, you deserve it!* :beers: .
 *This project is for academic purposes only, all right reserved. Andrés Andrade 2021 :copyright::registered:*
