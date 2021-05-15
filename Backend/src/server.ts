@@ -3,7 +3,8 @@ import { PORT } from "./app/config/environment";
 
 async function main() {
   const app = (await import("./app/config/app")).default;
-  app.listen(PORT, () => console.log("Server running on port: " + PORT));
+  const port = PORT || 8080;
+  app.listen(port, () => console.log("Server running on port: " + port));
 }
 
 main()
