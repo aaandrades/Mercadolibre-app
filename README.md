@@ -43,6 +43,9 @@ Backend:
 - Typescript: 4.2
 - Nodemo: 2.0.7
 - Axios: 0.21
+
+### :white_check_mark: Unit test
+You can run the unit test with the command ``` npm run test ``` o ``` npm run test:coverage ```
 ### :bulb: Run the App
 Just execute the docker-compose ```docker-compose up```
 ** Don't forget to enable CORS **
