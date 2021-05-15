@@ -8,7 +8,7 @@ import styles from "./styles/items.module.scss";
 
 export default function items () {
   const router = useRouter();
-  const { search } = router?.query;
+  const search  = router?.query?.search;
 
   const initialState = {
     data: [],
