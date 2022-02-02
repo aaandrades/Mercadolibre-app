@@ -8,7 +8,9 @@
 Frontend: Application developed in ReactJs and NextJs in a scalable, high-performance and SEO way on which you can query the backend of products in the open market. 
 
 Backend: This APP serves as an information adapter for the official Mercadolibre API. 
-It is responsible for standardizing the response of the service and delivering it to the Front application in a refined and optimal way. 
+It is responsible for standardizing the response of the service and delivering it to the Front application in a refined and optimal way.
+
+<img src="Documentation/main.png"  alt="Login screen" width="600" height="400" style=border-radius:6px>
 
 ### :sparkles: Features
 In the app you can find:
